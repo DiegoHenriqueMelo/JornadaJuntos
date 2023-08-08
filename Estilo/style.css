@@ -58,7 +58,11 @@ p{
     text-decoration: underline;
 
 }
-
+.dev{
+    font-family: var(--font-H);
+    font-size: 3em;
+    margin-left: 150px;
+}
 
 /*________________HOME________________*/
 header{
