@@ -123,12 +123,7 @@ main >h2{
 main >p{
     font-size: 0.8em;
 }
-main >p:hover{
-    padding: 1.5px;
-    background-color: var(--cor01);
-    border-radius: 10px;
-    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.349);
-}
+
 main > ul{
     background-color: var(--cor01);
     list-style-type: decimal-leading-zero;
@@ -178,7 +173,7 @@ aside>article.img02{
 }
 
 
-article>p:hover{
+article>p{
     padding: 1.5px;
     background-color:rgba(0, 0, 0, 0.322);
     border-radius: 10px;
@@ -205,7 +200,7 @@ footer >p{
 div >h1{
     margin: 10px;
     text-align: center;
-    text-shadow: 2px 2px 28px rgba(0, 0, 0, 0.377);
+    text-shadow: 2px 2px 28px rgba(0, 0, 0, 0.233);
     font-weight: 500;
     font-family: var(--font-H);
 }
@@ -226,7 +221,13 @@ div p{
 }
 div p:hover{
     padding: 5px ;
-    background-color: var(--cor01);
+    background-color: rgba(255, 255, 255, 0.178);
     border-radius: 10px;
-    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.349);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.185);
+}
+.main2{
+    background-image: url(../Fotos/img03.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
