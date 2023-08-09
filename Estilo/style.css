@@ -173,7 +173,7 @@ aside>article.img02{
     background-color: rgba(0, 0, 0, 0.253);    
     background-image:url(../Fotos/img02.avif) ;
     background-attachment: fixed;
-    background-size:cover ;
+    background-size:cover;
     color: white;
     border-radius: 10px;
     
@@ -240,8 +240,7 @@ div p:hover{
 }
 /*________________PREÇOS E ORÇAMENTOS________________*/
 table{
-    width: 600px;
-    margin: auto;
+    margin: 30px;
     border-collapse: collapse;
     position: relative;
 }
@@ -266,6 +265,7 @@ th{
     font-family: var(--font-padrao);
 }
 td{
+
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
