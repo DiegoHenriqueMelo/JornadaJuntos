@@ -67,6 +67,17 @@ p{
 .date{
     text-align: center;
 }
+.icon{
+    margin: 30px;
+    width: 30px;
+    height: 30px;
+}
+#tela{
+    margin-left: 70px;
+    position: relative;
+    height: 850px;
+    width: 470px;
+}
 /*________________HOME________________*/
 header{
     background-color: white;
@@ -87,6 +98,7 @@ header h1{
 }
 nav{
     text-align: center;
+ 
 }
 nav >a{
     margin-right: 20px;
@@ -239,39 +251,4 @@ div p:hover{
     background-attachment: fixed;
 }
 /*________________PREÇOS E ORÇAMENTOS________________*/
-table{
-    margin: 30px;
-    border-collapse: collapse;
-    position: relative;
-}
-thead, tfoot{
-    background-color: #C74230;
-    color: white;
 
-}
-thead>tr>th{
-    position: sticky;
-    top: -1px;
-    background-color: #C74230;
-}
-
-tbody>tr:nth-child(2n){
-    background-color: lightgrey;
-}
-th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    font-family: var(--font-padrao);
-}
-td{
-
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    font-family: var(--font-padrao);
-}
-td:hover{
-    text-decoration: underline;
-    font-weight: 600;
-}
