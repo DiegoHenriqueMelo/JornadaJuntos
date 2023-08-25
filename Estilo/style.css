@@ -72,11 +72,28 @@ p{
     width: 30px;
     height: 30px;
 }
-#tela{
-    margin-left: 70px;
-    position: relative;
-    height: 850px;
-    width: 470px;
+.img-perfil{
+    margin: auto;
+    margin: 10px 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: var(--cor04) solid 3px;
+}
+.img-perfil:hover{
+    border: var(--cor05) solid 3px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.384);
+}
+#main-table{
+    background-image:url(../Fotos/fotos/mapa-pirata-3.png) ;
+    background-size:cover ;
+}
+#h1-planos{
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 /*________________HOME________________*/
 header{
@@ -166,6 +183,7 @@ aside{
     border-radius: 10px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.349);
     margin: auto;
+    margin-top: 20px;
 }
 
 aside >p{
@@ -174,7 +192,7 @@ aside >p{
 }
 aside>article.img01{
     background-color: rgba(0, 0, 0, 0.253);    
-    background-image:url(../Fotos/img01.avif) ;
+    background-image:url(../Fotos/fotos/paisagem-1.jpg) ;
     background-attachment: fixed;
     background-size:cover ;
     color: white;
@@ -183,7 +201,7 @@ aside>article.img01{
 }
 aside>article.img02{
     background-color: rgba(0, 0, 0, 0.253);    
-    background-image:url(../Fotos/img02.avif) ;
+    background-image:url(../Fotos/fotos/paisagem-2.jpg) ;
     background-attachment: fixed;
     background-size:cover;
     color: white;
@@ -251,4 +269,51 @@ div p:hover{
     background-attachment: fixed;
 }
 /*________________PREÇOS E ORÇAMENTOS________________*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    position: relative;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.356);
+}
+thead, tfoot{
+    background-color: #C74230;
+    color: white;
+
+}
+thead>tr>th{
+    position: sticky;
+    top: -1px;
+    background-color: #C74230;
+}
+tbody>tr:nth-child(1n){
+    background-color: white;
+}
+tbody>tr:nth-child(2n){
+    background-color: lightgrey;
+}
+
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: var(--font-padrao);
+}
+td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: var(--font-padrao);
+}
+td:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/*________________PERFIL________________*/
 
