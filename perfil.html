@@ -17,12 +17,59 @@
             <a href="perfil.html">Login</a>
         </nav>
     </header>
-    <main>
+    <main class="main2">
         <h1>Cire seu perfil aqui!</h1>
         <picture>
-            <source media="(max-width: 600px )" srcset="../Fotos/fotos/perfil.png">
+            <source media="(max-width: 600px )" srcset="Fotos/fotos/perfil.png">
             <img class="img-perfil" src="Fotos/fotos/perfil-2.png" alt="">
         </picture>
+
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="inome">
+                    <p>Nome:
+                        <input type="text" name="nome" id="inome" required placeholder="Nome do Usuario" autocomplete="name">
+                    </p>
+                </label>
+                <label for="isobrenome">
+                    <p>Sobrenome:
+                        <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome do Usuario" autocomplete="name">
+                    </p>
+                </label>
+                <label for="idata">
+                    <p>Data de Nascimento:
+                        <input type="date" name="data" id="idata" required autocomplete="bday-year">
+                    </p>
+                </label>
+                <label for="ifone">
+                    <p> Telefone:
+                        <input type="tel" name="fone" id="ifone" required minlength="11" maxlength="11" placeholder="99 99999-9999" autocomplete="tel">
+                    </p>
+                </label>
+                <label for="iemail">
+                    <p>E-mail:
+                        <input type="email" name="email" id="iemail" required placeholder="SeuEmail@SeuEmail.com" autocomplete="email">
+                    </p>
+                </label>
+                <label for="iemail-2">
+                    <p>Confirma seu E-mail:
+                        <input type="email" name="email" id="iemail-2" required placeholder="SeuEmail@SeuEmail.com" autocomplete="email">
+                    </p>
+                </label>
+                <label for="isenha">
+                    <p>Senha:
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="13" placeholder="Senha" autocomplete="current-password">
+                    </p>
+                </label>
+            </fieldset>
+            <br>
+            <input id="b-perfil" type="reset" value="Limpar">
+            <input id="b-perfil" type="submit" value="Enviar">
+
+
+        </form> 
     </main>
     <footer>
         <p>Site Criado por Diego Melo para <a href="https://github.com/DiegoHenriqueMelo" class="git">GitHub</a></p>
