@@ -317,19 +317,34 @@ td:hover{
 }
 
 /*________________PERFIL________________*/
-
 form{
     position: relative;
     top: -140px;
-    display: inline-block;
-    padding: 30px;
-    /* border: .1px dashed rgba(0, 0, 0, 0.301); */
     margin-left: 130px;
-    width: 800px;
-    height: 480px;
-} 
+    margin-right: 10px;
+
+}
 fieldset{
     background-color: white;
+}
+input{
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+}
+input:hover{
+    border: 1px solid #C74230;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.219);
+}
+label>p{
+    font-family: var(--font-depoimentos);
+}
+#ifoto{
+    border: none;
 }
 legend{
     font-family: var(--font-H);
@@ -339,50 +354,16 @@ legend{
 legend:hover{
     color: #4091C7;
 }
-label>p{
-    font-family: var(--font-depoimentos);
-} 
-input{
-    margin-left: 15px;
-    height: 30px;
-    width: 300px;
-    color: rgba(0, 0, 0, 0.678);
-    border-radius: 10px;
-    text-align: center;
-    font-family: var(--font-H);
-}
-input:hover{
-    border: 1px solid #C74230;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.219);
-}
-
 #b-perfil{
     margin-left: auto;
+    margin-right: 10px;
+    padding: 2px;
+    height: 50px;
+    width: 190px;
+    text-align: center;
 }
 #b-perfil:hover{
-    border: 1px solid black;
-    background-color:#9BD5FB;
     color: black;
-    
-}
-#inome{
-    margin-left: 370px;
-}
-#isobrenome{
-    margin-left: 327px;
-}
-#idata{
-    margin-left: 253px;
-}
-#ifone{
-    margin-left: 351px;
-}
-#iemail{
-    margin-left: 358px;
-}
-#iemail-2{
-    margin-left: 240px;
-}
-#isenha{
-    margin-left: 362px;
+    border: 1px solid black;
+    background-color: #4091C7;
 }
